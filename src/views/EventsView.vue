@@ -52,10 +52,10 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .events {
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   align-items: center;
 }
 </style>
