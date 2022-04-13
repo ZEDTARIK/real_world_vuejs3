@@ -19,7 +19,7 @@ export default {
   },
   created() {
     EventService.getEvents()
-      .then((response) => this.events.data)
+      .then((response) => (this.events = response.data))
       .catch((err) => console.error(err));
   },
 };
